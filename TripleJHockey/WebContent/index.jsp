@@ -1,4 +1,4 @@
-<%@ include file="/TripleJHockey/header.jsp" %>
+<%@ include file="/header.jsp"%>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -79,6 +79,6 @@
 </div>
 </div>
 </div>
-<%@ include file="/TripleJHockey/footer.jsp" %>
+<%@ include file="/footer.jsp" %>
 
 

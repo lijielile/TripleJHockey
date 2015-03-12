@@ -18,7 +18,7 @@
 <div class="page-header">
 <div class="row">
 <div class="col-xs-9 vcenter">
-<a href="/TripleJHockey"><h1>Triple J Hockey <small>Everything You Need</small></h1></a>
+<a href="/TripleJHockey"><h1>Triple P Hockey <small>Everything You Need</small></h1></a>
 </div>
 <div class="col-xs-1 vcenter ">
 <h3>Login</h3>
