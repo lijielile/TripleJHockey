@@ -1,3 +1,3 @@
-<%@ include file="/header.jsp"%>
+<%@ include file="/WEB-INF/Format/header.jspf"%>
 <p>Leave your message</p>
-<%@ include file="/footer.jsp" %>
+<%@ include file="/WEB-INF/Format/footer.jspf" %>

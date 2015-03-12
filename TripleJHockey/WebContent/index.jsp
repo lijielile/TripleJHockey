@@ -1,4 +1,4 @@
-<%@ include file="/header.jsp"%>
+<%@ include file="/WEB-INF/Format/header.jspf"%>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -79,6 +79,6 @@
 </div>
 </div>
 </div>
-<%@ include file="/footer.jsp" %>
+<%@ include file="/WEB-INF/Format/footer.jspf" %>
 
 
