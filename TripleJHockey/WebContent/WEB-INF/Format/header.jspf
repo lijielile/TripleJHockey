@@ -24,7 +24,7 @@
 <h3>Login</h3>
 </div>
 <div class="col-xs-1 vcenter ">
-<img src="/TripleJHockey/image/cart.png" width="50" height="50">
+<img src="/TripleJHockey/image/cart.png" width="50" height="50" />
 </div>
 </div>
 </div>
@@ -33,7 +33,7 @@
 <div class="collapse navbar-collapse" id="mynavbar-content">
 <ul class="nav navbar-nav">
 <li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> Company <b class="caret"></b></a>
+<a href="#" class="dropdown-toggle"> Company <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li><a href="/TripleJHockey/Company/AboutUs/">About Us</a></li>
 <li><a href="/TripleJHockey/Company/MessageFromCEO/">Message From CEO</a></li>
@@ -41,30 +41,63 @@
 </ul>
 </li>
 <li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> Sticks <b class="caret"></b></a>
+<a href="#" class="dropdown-toggle"> Sticks <b class="caret"></b></a>
 <ul class="dropdown-menu">
-<li><a href="#">Composite Sticks</a></li>
-<li><a href="#">Wooden Sticks</a></li>
-<li><a href="#">Goalie Sticks</a></li>
+<li>
+<form action="" method="get">
+<input type="hidden" name="Category" value="compositeStick"/> 
+<a href="#" >Composite Sticks</a>
+</form>
+</li>
+<li>
+<form action="" method="get">
+<a href="#">Wooden Sticks</a>
+</form>
+</li>
+<li>
+<form action="" method="get">
+<a href="#">Goalie Sticks</a>
+</form>
+</li>
 </ul>
 </li>
 <li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> Skates <b class="caret"></b></a>
+<a href="#" class="dropdown-toggle"> Skates <b class="caret"></b></a>
 <ul class="dropdown-menu">
-<li><a href="#">Ice</a></li>
-<li><a href="#">Inline</a></li>
+<li>
+<form action="" method="get">
+<a href="#">Ice</a>
+</form>
+</li>
+<li>
+<form action="" method="get">
+<a href="#">Inline</a>
+</form>
+</li>
 </ul>
 </li>
 <li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> Bags <b class="caret"></b></a>
+<a href="#" class="dropdown-toggle"> Bags <b class="caret"></b></a>
 <ul class="dropdown-menu">
-<li><a href="#">Backpack Bags</a></li>
-<li><a href="#">Carry Bags</a></li>
-<li><a href="#">Stick Bags</a></li>
+<li>
+<form action="" method="get">
+<a href="#">Backpack Bags</a>
+</form>
+</li>
+<li>
+<form action="" method="get">
+<a href="#">Carry Bags</a>
+</form>
+</li>
+<li>
+<form action="" method="get">
+<a href="#">Stick Bags</a>
+</form>
+</li>
 </ul>
 </li>
 <li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> Contact Us <b class="caret"></b></a>
+<a href="#" class="dropdown-toggle"> Contact Us <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li><a href="/TripleJHockey/ContactUs/StoreLocation/">Store Location</a></li>
 <li><a href="/TripleJHockey/ContactUs/QA/">Q&A</a></li>
