@@ -31,3 +31,10 @@
 .user{
 	color:black;
 }
+.ceoMessageBoard{
+	font-size:20px;
+}
+.ceoPanelFooter{
+	text-align:right;
+	font-style: italic;
+}
