@@ -25,3 +25,9 @@
 .headerLink:hover{
 	text-decoration: none;
 }
+.user:hover{
+	text-decoration: none;
+}
+.user{
+	color:black;
+}

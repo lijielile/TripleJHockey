@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Triple J Hockey</title>
+<link rel="stylesheet" type="text/css" href="/TripleJHockey/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/TripleJHockey/css/style.css">
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="container">
+<div class="page-header">
+<div class="row">
+<div class="col-xs-9 vcenter">
+<h1><a href="/TripleJHockey" class="headerLink">Triple J Hockey <small>Everything You Need</small></a></h1>
+</div>
+</div>
+</div>
+

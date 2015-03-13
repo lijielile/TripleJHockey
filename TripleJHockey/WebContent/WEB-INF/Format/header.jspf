@@ -21,7 +21,7 @@
 <h1><a href="/TripleJHockey" class="headerLink">Triple J Hockey <small>Everything You Need</small></a></h1>
 </div>
 <div class="col-xs-1 vcenter ">
-<h3>Login</h3>
+<h3><a href="/TripleJHockey/User/login.jsp" class="user">Login</a></h3>
 </div>
 <div class="col-xs-1 vcenter ">
 <img src="/TripleJHockey/image/cart.png" width="50" height="50" />
@@ -51,11 +51,13 @@
 </li>
 <li>
 <form action="" method="get">
+<input type="hidden" name="Category" value="woodenStick"/> 
 <a href="#">Wooden Sticks</a>
 </form>
 </li>
 <li>
 <form action="" method="get">
+<input type="hidden" name="Category" value="goalieStick"/> 
 <a href="#">Goalie Sticks</a>
 </form>
 </li>
@@ -66,11 +68,13 @@
 <ul class="dropdown-menu">
 <li>
 <form action="" method="get">
+<input type="hidden" name="Category" value="iceSkate"/> 
 <a href="#">Ice</a>
 </form>
 </li>
 <li>
 <form action="" method="get">
+<input type="hidden" name="Category" value="inlineSkate"/> 
 <a href="#">Inline</a>
 </form>
 </li>
@@ -81,16 +85,19 @@
 <ul class="dropdown-menu">
 <li>
 <form action="" method="get">
+<input type="hidden" name="Category" value="backpackBag"/> 
 <a href="#">Backpack Bags</a>
 </form>
 </li>
 <li>
 <form action="" method="get">
+<input type="hidden" name="Category" value="carryBag"/> 
 <a href="#">Carry Bags</a>
 </form>
 </li>
 <li>
 <form action="" method="get">
+<input type="hidden" name="Category" value="stickBag"/> 
 <a href="#">Stick Bags</a>
 </form>
 </li>
