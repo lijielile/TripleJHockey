@@ -14,7 +14,7 @@
 <button type="reset" class="btn btn-default">Reset</button>
 </form>
 <p></p>
-<p><a href="/TripleJHockey/User/register.jsp">New user? Create an account</a></p>
+<p><a href="/TripleJHockey/User/register/">New user? Create an account</a></p>
 </div>
 </div>
 <%@ include file="/WEB-INF/Format/footer.jspf" %>
