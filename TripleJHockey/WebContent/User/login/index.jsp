@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/Format/staticHeader.jspf"%>
 <div class="row">
 <div class="col-xs-6 col-xs-offset-3">
-<form class="form" action="" method="get">
+<form class="form" action="/TripleJHockey/LoginServlet" method="post">
 <div class="form-group">
 <label>User Name</label>
 <input type="text" class="form-control" name="userId"  />

@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/Format/staticHeader.jspf"%>
 <div class="row">
 <div class="col-xs-6 col-xs-offset-3">
-<form class="form" action="" method="get">
+<form class="form" action="/TripleJHockey/RegisterServlet" method="post">
 <div class="form-group">
 <label>UserId</label>
 <input type="text" class="form-control" name="userId"  />
@@ -12,7 +12,7 @@
 </div>
 <div class="form-group">
 <label>Password again</label>
-<input type="text" class="form-control" name="passwordCheck"  />
+<input type="password" class="form-control" name="passwordCheck"  />
 </div>
 <div class="row">
 <div class="col-xs-6">

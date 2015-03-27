@@ -44,7 +44,7 @@
 <div class="caption">
 <h3>Sticks</h3>
 <p>Want to win a hockey game? Come shop at Triple J Hockey for the coolest hockey sticks. Our composites
- sticks are made of state-of-art composite materials which are both strong and light-weighted. Our compoiste sticks 
+ sticks are made of state-of-art composite materials which are both strong and light-weighted. Our composite sticks 
  are your largest advantages compared to your opponents.Get them today and you will be the constant winner.</p>
 <p><a href="#" class="btn btn-primary">See details</a></p>
 </div>
@@ -55,7 +55,7 @@
 <img src="/TripleJHockey/image/hockey_skate.jpg">
 <div class="caption">
 <h3>Skates</h3>
-<p>The ice sktate is the most indispensable gear for a hockey game. At Triple J Hockey, all our ice skates have
+<p>The ice skate is the most indispensable gear for a hockey game. At Triple J Hockey, all our ice skates have
  gone through restrict tests to help you skate smoothly. Our blades are made of our proprietary materials which
   can help you keep your balance while not affecting your speed. Come take a look at our inventory.</p>
 <p><a href="#" class="btn btn-primary">See details</a></p>
@@ -67,9 +67,9 @@
 <img src="/TripleJHockey/image/hockey_bag.jpg">
 <div class="caption">
 <h3>Bags</h3>
-<p>Among all our bags, the back pack bags are our top sells. All our back pack bags are desgined by world class
- designers in conjunction with matreial experts. They are both stylish and solid. One bag can meet all your needs
-  for a hockey game. In addition, our bags are not limited to hocky games. You can use them at any occasions with 
+<p>Among all our bags, the back pack bags are our top sells. All our back pack bags are designed by world class
+ designers in conjunction with material experts. They are both stylish and solid. One bag can meet all your needs
+  for a hockey game. In addition, our bags are not limited to hockey games. You can use them at any occasions with 
   ease and comfort.</p>
 <p><a href="#" class="btn btn-primary">See details</a></p>
 </div>
@@ -80,7 +80,7 @@
 <img src="/TripleJHockey/image/contact_us.png">
 <div class="caption">
 <h3>Contact Us</h3>
-<p>Your feedback is critical to us. At Triple J Hockey, one of our missions is to ensure customer satisification.
+<p>Your feedback is critical to us. At Triple J Hockey, one of our missions is to ensure customer satisfaction.
  If you have any messages to share with us about how to improve your shopping experiences, we will be very glad to hear your 
  voices. In addition, if you encountered any problem during your shopping, we will help you solve it ASAP.</p>
 <p><a href="/TripleJHockey/ContactUs/LeaveYourMessage/" class="btn btn-primary">Contact Us</a></p>

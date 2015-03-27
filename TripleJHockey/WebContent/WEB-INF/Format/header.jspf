@@ -44,21 +44,21 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown" > Sticks <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li>
-<form action="" method="get">
+<form action="/TripleJHockey/CategoryServlet" method="post">
 <input type="hidden" name="Category" value="compositeStick"/> 
-<a href="#" >Composite Sticks</a>
+<input type="submit" value="Composite Sticks"/>
 </form>
 </li>
 <li>
-<form action="" method="get">
+<form action="/TripleJHockey/CategoryServlet" method="post">
 <input type="hidden" name="Category" value="woodenStick"/> 
-<a href="#">Wooden Sticks</a>
+<input type="submit" value="Wooden Sticks"/>
 </form>
 </li>
 <li>
-<form action="" method="get">
+<form action="/TripleJHockey/CategoryServlet" method="post">
 <input type="hidden" name="Category" value="goalieStick"/> 
-<a href="#">Goalie Sticks</a>
+<input type="submit" value="Goalie Sticks"/>
 </form>
 </li>
 </ul>
@@ -67,15 +67,15 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Skates <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li>
-<form action="" method="get">
+<form action="/TripleJHockey/CategoryServlet" method="post">
 <input type="hidden" name="Category" value="iceSkate"/> 
-<a href="#">Ice</a>
+<input type="submit" value="Ice Skates"/>
 </form>
 </li>
 <li>
-<form action="" method="get">
+<form action="/TripleJHockey/CategoryServlet" method="post">
 <input type="hidden" name="Category" value="inlineSkate"/> 
-<a href="#">Inline</a>
+<input type="submit" value="Inline Skates"/>
 </form>
 </li>
 </ul>
@@ -84,21 +84,21 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Bags <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li>
-<form action="" method="get">
+<form action="/TripleJHockey/CategoryServlet" method="post">
 <input type="hidden" name="Category" value="backpackBag"/> 
-<a href="#">Backpack Bags</a>
+<input type="submit" value="Backpack Bags"/>
 </form>
 </li>
 <li>
-<form action="" method="get">
+<form action="/TripleJHockey/CategoryServlet" method="post">
 <input type="hidden" name="Category" value="carryBag"/> 
-<a href="#">Carry Bags</a>
+<input type="submit" value="Carry Bags"/>
 </form>
 </li>
 <li>
-<form action="" method="get">
+<form action="/TripleJHockey/CategoryServlet" method="post">
 <input type="hidden" name="Category" value="stickBag"/> 
-<a href="#">Stick Bags</a>
+<input type="submit" value="Stick Bags"/>
 </form>
 </li>
 </ul>
