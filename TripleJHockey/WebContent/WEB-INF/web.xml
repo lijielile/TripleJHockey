@@ -17,7 +17,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>CategoryServlet</servlet-name>
-    <url-pattern>/CategoryServlet</url-pattern>
+    <url-pattern>/Product</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>

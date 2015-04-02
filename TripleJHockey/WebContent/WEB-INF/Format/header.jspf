@@ -44,21 +44,21 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown" > Sticks <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li>
-<form action="/TripleJHockey/CategoryServlet" method="post">
+<form id="compositeStickForm" action="/TripleJHockey/Product" method="post">
 <input type="hidden" name="Category" value="compositeStick"/> 
-<input type="submit" value="Composite Sticks"/>
+<a href="#" onclick="document.getElementById('compositeStickForm').submit();" >Composite Sticks</a>
 </form>
 </li>
 <li>
-<form action="/TripleJHockey/CategoryServlet" method="post">
+<form id="woodenStickForm" action="/TripleJHockey/Product" method="post">
 <input type="hidden" name="Category" value="woodenStick"/> 
-<input type="submit" value="Wooden Sticks"/>
+<a href="#" onclick="document.getElementById('woodenStickForm').submit();">Wooden Sticks</a>
 </form>
 </li>
 <li>
-<form action="/TripleJHockey/CategoryServlet" method="post">
+<form id="gaolieStickForm" action="/TripleJHockey/Product" method="post">
 <input type="hidden" name="Category" value="goalieStick"/> 
-<input type="submit" value="Goalie Sticks"/>
+<a href="#" onclick="document.getElementById('gaolieStickForm').submit();">Goalie Sticks</a>
 </form>
 </li>
 </ul>
@@ -67,15 +67,15 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Skates <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li>
-<form action="/TripleJHockey/CategoryServlet" method="post">
+<form id="iceSkateForm" action="/TripleJHockey/Product" method="post">
 <input type="hidden" name="Category" value="iceSkate"/> 
-<input type="submit" value="Ice Skates"/>
+<a href="#" onclick="document.getElementById('iceSkateForm').submit();">Ice</a>
 </form>
 </li>
 <li>
-<form action="/TripleJHockey/CategoryServlet" method="post">
+<form id="inLineSkateForm" action="/TripleJHockey/Product" method="post">
 <input type="hidden" name="Category" value="inlineSkate"/> 
-<input type="submit" value="Inline Skates"/>
+<a href="#" onclick="document.getElementById('inLineSkateForm').submit();">Inline</a>
 </form>
 </li>
 </ul>
@@ -84,21 +84,21 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Bags <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li>
-<form action="/TripleJHockey/CategoryServlet" method="post">
+<form id="backpackForm" action="/TripleJHockey/Product" method="post">
 <input type="hidden" name="Category" value="backpackBag"/> 
-<input type="submit" value="Backpack Bags"/>
+<a href="#" onclick="document.getElementById('backpackForm').submit();">Backpack Bags</a>
 </form>
 </li>
 <li>
-<form action="/TripleJHockey/CategoryServlet" method="post">
+<form id="carryBagForm" action="/TripleJHockey/Product" method="post">
 <input type="hidden" name="Category" value="carryBag"/> 
-<input type="submit" value="Carry Bags"/>
+<a href="#" onclick="document.getElementById('carryBagForm').submit();">Carry Bags</a>
 </form>
 </li>
 <li>
-<form action="/TripleJHockey/CategoryServlet" method="post">
+<form id="stickBagForm" action="/TripleJHockey/Product" method="post">
 <input type="hidden" name="Category" value="stickBag"/> 
-<input type="submit" value="Stick Bags"/>
+<a href="#" onclick="document.getElementById('stickBagForm').submit();">Stick Bags</a>
 </form>
 </li>
 </ul>
