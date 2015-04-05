@@ -5,30 +5,32 @@
 	int count=1;
 %>
 <%@ include file="/WEB-INF/Format/header.jspf"%>
-<div class="row">
-<table class="table">
 <%
 while (count<=size){
-	if (count%3==1){
+	if (count%4==1){
 %>
-<tr>
+<div class="row">
 <%
 	}
+	String form="Form"+count;
 %>
-<td>
+<div class="col-xs-3">
+<form id="<%=form %>" action="/TripleJHockey/Item" method="get">
+<input type="hidden" name="Product" id="Product"value="<%=items[count-1].getProductName() %>"/> 
+<a href="#" onclick="document.getElementById('<%=form %>').submit();" >
 <img src=<%="/TripleJHockey/image/Thumbnails/"+items[count-1].getImage() %>>
+</a>
+</form>
 <p><%=items[count-1].getProductName() %></p>
 <p>Price: <%=items[count-1].getPrice() %> </p>
-</td>
+</div>
 <%
-	if (count%3==0){
+	if (count%4==0||count==size){
 %>
-</tr>
+</div>
 <%
 	}
 	count++;
 }
 %>
-</table>
-</div>
 <%@ include file="/WEB-INF/Format/footer.jspf" %>

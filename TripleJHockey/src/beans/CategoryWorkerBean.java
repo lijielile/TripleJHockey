@@ -19,7 +19,7 @@ public class CategoryWorkerBean {
 		Statement stmt = null;  
 		ResultSet rs = null;
 		ArrayList<ItemBean> itemList=new ArrayList<ItemBean>();
-		DataSource dataSource=(DataSource)request.getAttribute("ItemDBConnection");
+		DataSource dataSource=(DataSource)request.getServletContext().getAttribute("DBConnection");
 		try {
 			conn=dataSource.getConnection();
 			stmt=conn.createStatement();
