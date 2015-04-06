@@ -58,8 +58,13 @@ public class LoginServlet extends HttpServlet {
 		//		- if it doesn't exist
 		//			- pass back an error string that "that user name does not exist"
 		LoginWorkerBean workerBean=new LoginWorkerBean(request,response);
-		ServletContext servletContext = getServletContext();
-		RequestDispatcher dispatcher = servletContext.getRequestDispatcher(workerBean.getReturnAddress());
-        dispatcher.forward(request, response);
+		if (workerBean.getIsSuccessful()){
+			response.sendRedirect("/TripleJHockey");
+		}
+		else{
+			ServletContext servletContext = getServletContext();
+			RequestDispatcher dispatcher = servletContext.getRequestDispatcher("/User/login/");
+	        dispatcher.forward(request, response);
+		}
 	}
 }

@@ -12,8 +12,12 @@ import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
 public class RegisterWorkerBean {
-	String returnAddress;
+	private boolean result;
 	
+	public boolean GetResult() {
+		return result;
+	}
+
 	public RegisterWorkerBean(HttpServletRequest request,
 		HttpServletResponse response) throws ServletException, IOException {
 		Connection conn = null;
@@ -30,7 +34,6 @@ public class RegisterWorkerBean {
 			rs=stmt.executeQuery(st);
 			if(rs.next()){
 				request.setAttribute("errorMessage", "Error: The userId has already been registered");
-				returnAddress="/User/register/";
 			}
 			else{
 				String passWord=request.getParameter("password");
@@ -51,7 +54,7 @@ public class RegisterWorkerBean {
 				insertUser.setString(5, address+" "+city+" "+state+" "+zipcode);
 				insertUser.setString(6, email);
 				insertUser.executeUpdate();
-				returnAddress="/";
+				result=true;
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -76,9 +79,4 @@ public class RegisterWorkerBean {
 			    }
 		}
 	}
-
-	public String getReturnAddress() {
-		return returnAddress;
-	}
-
 }

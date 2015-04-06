@@ -46,7 +46,7 @@
 <p>Want to win a hockey game? Come shop at Triple J Hockey for the coolest hockey sticks. Our composites
  sticks are made of state-of-art composite materials which are both strong and light-weighted. Our composite sticks 
  are your largest advantages compared to your opponents.Get them today and you will be the constant winner.</p>
- <form id="compositeStickFormMain" action="/TripleJHockey/Product" method="post">
+ <form id="compositeStickFormMain" action="/TripleJHockey/Product" method="get">
 <input type="hidden" name="Category" value="compositeStick"/> 
 <p><a href="#" onclick="document.getElementById('compositeStickFormMain').submit();" class="btn btn-primary">See details</a></p>
 </form>
@@ -61,7 +61,7 @@
 <p>The ice skate is the most indispensable gear for a hockey game. At Triple J Hockey, all our ice skates have
  gone through restrict tests to help you skate smoothly. Our blades are made of our proprietary materials which
   can help you keep your balance while not affecting your speed. Come take a look at our inventory.</p>
-<form id="iceSkateFormMain" action="/TripleJHockey/Product" method="post">
+<form id="iceSkateFormMain" action="/TripleJHockey/Product" method="get">
 <input type="hidden" name="Category" value="iceSkate"/> 
 <p><a href="#" class="btn btn-primary" onclick="document.getElementById('iceSkateFormMain').submit();">See details</a></p>
 </form>
@@ -77,7 +77,7 @@
  designers in conjunction with material experts. They are both stylish and solid. One bag can meet all your needs
   for a hockey game. In addition, our bags are not limited to hockey games. You can use them at any occasions with 
   ease and comfort.</p>
- <form id="backpackFormMain" action="/TripleJHockey/Product" method="post">
+ <form id="backpackFormMain" action="/TripleJHockey/Product" method="get">
 <input type="hidden" name="Category" value="backpackBag"/>
 <p><a href="#" class="btn btn-primary" onclick="document.getElementById('backpackFormMain').submit();">See details</a></p>
 </form>

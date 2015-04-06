@@ -9,10 +9,10 @@ import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
 public class LoginWorkerBean {
-	String returnAddress;
+	private boolean isSuccessful=false;
 
-	public String getReturnAddress() {
-		return returnAddress;
+	public Boolean getIsSuccessful() {
+		return isSuccessful;
 	}
 
 	public LoginWorkerBean(HttpServletRequest request, HttpServletResponse response) {
@@ -30,11 +30,9 @@ public class LoginWorkerBean {
 			rs=stmt.executeQuery(st);
 			if(!rs.next()){
 				request.setAttribute("errorMessage", "Error: Your username/password is incorrect");
-				returnAddress="/User/login/";
 			}
 			else{
-				
-				returnAddress="/";
+				isSuccessful=true;
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

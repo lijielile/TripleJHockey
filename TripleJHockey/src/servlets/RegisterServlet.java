@@ -1,7 +1,6 @@
 package servlets;
 
 import java.io.IOException;
-
 import javax.naming.InitialContext;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
@@ -11,7 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
-
 import beans.RegisterWorkerBean;
 
 public class RegisterServlet extends HttpServlet {
@@ -58,10 +56,14 @@ public class RegisterServlet extends HttpServlet {
 		//			- go to the main page, with the "Account" instead of "Login" visible in the header now..... need to implement this somehow
 		
 		RegisterWorkerBean workerBean=new RegisterWorkerBean(request,response);
-		String forwardPage=workerBean.getReturnAddress();
-		ServletContext servletContext = getServletContext();
-		RequestDispatcher dispatcher = servletContext.getRequestDispatcher(forwardPage);
-        dispatcher.forward(request, response);
+		if (workerBean.GetResult()){
+			response.sendRedirect("/TripleJHockey");
+		}
+		else{
+			ServletContext servletContext = getServletContext();
+			RequestDispatcher dispatcher = servletContext.getRequestDispatcher("/User/register/");
+	        dispatcher.forward(request, response);
+		}
 	}
 
 }
