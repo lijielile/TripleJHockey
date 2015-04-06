@@ -1,7 +1,15 @@
 <%@ include file="/WEB-INF/Format/staticHeader.jspf"%>
 <div class="row">
 <div class="col-xs-6 col-xs-offset-3">
-<form class="form" action="/TripleJHockey/RegisterServlet" method="post">
+<%
+String errorMessage=(String)request.getAttribute("errorMessage");
+if (errorMessage!=null){
+%>
+<p><%=errorMessage %></p>
+<%
+}
+%>
+<form class="form" action="/TripleJHockey/Register" method="post">
 <div class="form-group">
 <label>UserId</label>
 <input type="text" class="form-control" name="userId"  />
