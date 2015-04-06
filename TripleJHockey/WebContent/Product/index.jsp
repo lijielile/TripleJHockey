@@ -22,7 +22,7 @@ while (count<=size){
 </a>
 </form>
 <p><%=items[count-1].getProductName() %></p>
-<p>Price: <%=items[count-1].getPrice() %> </p>
+<p>Price: $<%=items[count-1].getPrice() %> </p>
 </div>
 <%
 	if (count%4==0||count==size){

@@ -5,7 +5,6 @@
 <%@ page import="javax.sql.DataSource" %>
 <%@ page import="java.util.HashMap" %>
 <%@ page import="java.util.LinkedList" %>
-
 <%
 String productName=request.getParameter("Product");
 Connection conn = null;
@@ -47,17 +46,17 @@ DataSource dataSource=(DataSource)request.getServletContext().getAttribute("DBCo
 %>
 <%@ include file="/WEB-INF/Format/header.jspf"%>
 <div class="row">
-<div class="col-xs-6">
+<div class="col-xs-5 col-xs-offset-1" >
 <img src=<%="/TripleJHockey/image/FullSize/"+image %>>
 </div>
 <div class="col-xs-6">
-<p><%=productName %></p>
-<p>$<%=price %></p>
+<h3><%=productName %></h3>
+<h4>$<%=price %></h4>
 <form id="" action="" method="get">
 <%
 for (String key:map.keySet()){
 %>
-<p><%=key %></p>
+<h4><%=key %></h4>
 <p>
 <%
 LinkedList<String> list=(LinkedList<String>)map.get(key);
@@ -73,10 +72,24 @@ for (String str:list){
 <%
 }
 %>
-<p><%=details %></p>
+<div class="form-group">
+<h4>Quantities</h4>
+<select class="form-control selectWidth" id="sel1">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+</div>
+<h4><%=details %></h4>
 <button type="submit" class="btn btn-primary">Add to cart</button>
 </form>
-
 </div>
 </div>
 <%@ include file="/WEB-INF/Format/footer.jspf" %>
