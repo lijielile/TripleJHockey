@@ -17,7 +17,8 @@ public class CategoryServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**Added the init() method.
-	 * The database connection pool is initialized here
+	 * The init() method checks if the database connection is already created.
+	 * If not, creates the database connection.
 	 * @author jie
 	 */
 	@Override

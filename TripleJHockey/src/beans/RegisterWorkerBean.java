@@ -53,12 +53,6 @@ public class RegisterWorkerBean {
 				insertUser.executeUpdate();
 				returnAddress="/";
 			}
-			rs.close();
-		    rs = null;
-			stmt.close();
-		    stmt = null;
-		    conn.close(); // Return to connection pool
-		    conn = null;  // Make sure we don't close it twice	
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally{
