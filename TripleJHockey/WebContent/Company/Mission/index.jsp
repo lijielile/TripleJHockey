@@ -10,7 +10,7 @@ Our Mission
 </div>
 <div class="panel-body">
 <p>- Customer oriented</p>
-<p>- Customer satisification</p>
+<p>- Customer satisfaction</p>
 <p>- High quality</p>
 <p>- Low price</p>
 <p>- Best service</p>

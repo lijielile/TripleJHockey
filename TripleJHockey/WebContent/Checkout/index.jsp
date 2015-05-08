@@ -8,7 +8,9 @@
 <%@ include file="/WEB-INF/Format/header.jspf"%>
 
 <div>
-To be implemented
+Your Shopping Cart:
 </div>
+
+
 
 <%@ include file="/WEB-INF/Format/footer.jspf" %>

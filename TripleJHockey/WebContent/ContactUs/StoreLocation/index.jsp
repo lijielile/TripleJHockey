@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/Format/header.jspf"%>
-<p style="font-size:20px">We currently have stores in five states at the east coaste.</p>
+<p style="font-size:20px">We currently have stores in five states on the east coast.</p>
 <p style="font-size:18px"><b>Massachusetts</b></p>
 <div class="row">
 <div class="col-xs-6">

@@ -3,6 +3,9 @@
 <div class="col-xs-6 col-xs-offset-3">
 <form class="form" action="" method="get">
 <div class="form-group">
+<div class="user">
+We appreciate your feedback! Please let us know if you have any specific feedback.
+</div>
 <label>Your name:</label>
 <input type="text" class="form-control" name="name"  />
 </div>
@@ -11,7 +14,7 @@
 <input type="email" class="form-control" name="email"  />
 </div>
 <div class="form-group">
-<label>Message for us:</label>
+<label>Comment/Concern:</label>
 <textarea class="form-control" name="message" style="height:200px" ></textarea>
 </div>
 <button type="submit" class="btn btn-primary">Submit</button>

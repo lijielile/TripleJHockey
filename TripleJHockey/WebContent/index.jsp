@@ -43,9 +43,9 @@
 <img src="/TripleJHockey/image/hockey_stick.jpg">
 <div class="caption">
 <h3>Sticks</h3>
-<p>Want to win a hockey game? Come shop at Triple J Hockey for the coolest hockey sticks. Our composites
- sticks are made of state-of-art composite materials which are both strong and light-weighted. Our composite sticks 
- are your largest advantages compared to your opponents.Get them today and you will be the constant winner.</p>
+<p>Want to win a hockey game? Come shop at Triple J Hockey for the coolest hockey sticks. Our composite
+ sticks are made of state-of-art composite materials which are both strong and light-weight. Our composite sticks 
+ can be your largest advantage against your opponents. Buy one today and start winning!</p>
  <form id="compositeStickFormMain" action="/TripleJHockey/Product" method="get">
 <input type="hidden" name="Category" value="compositeStick"/> 
 <p><a href="#" onclick="document.getElementById('compositeStickFormMain').submit();" class="btn btn-primary">See details</a></p>
@@ -58,9 +58,9 @@
 <img src="/TripleJHockey/image/hockey_skate.jpg">
 <div class="caption">
 <h3>Skates</h3>
-<p>The ice skate is the most indispensable gear for a hockey game. At Triple J Hockey, all our ice skates have
- gone through restrict tests to help you skate smoothly. Our blades are made of our proprietary materials which
-  can help you keep your balance while not affecting your speed. Come take a look at our inventory.</p>
+<p>Quality ice skates are the most critical piece of hockey gear. At Triple J Hockey, all our ice skates have
+ gone through extensive testing to create the smoothest skating experience. Our blades are made from proprietary materials which
+  help you maintain your balance without affecting your speed. Come take a look at our inventory.</p>
 <form id="iceSkateFormMain" action="/TripleJHockey/Product" method="get">
 <input type="hidden" name="Category" value="iceSkate"/> 
 <p><a href="#" class="btn btn-primary" onclick="document.getElementById('iceSkateFormMain').submit();">See details</a></p>
@@ -73,9 +73,9 @@
 <img src="/TripleJHockey/image/hockey_bag.jpg">
 <div class="caption">
 <h3>Bags</h3>
-<p>Among all our bags, the back pack bags are our top sells. All our back pack bags are designed by world class
- designers in conjunction with material experts. They are both stylish and solid. One bag can meet all your needs
-  for a hockey game. In addition, our bags are not limited to hockey games. You can use them at any occasions with 
+<p>Among all our bags, the backpack bags are our top sellers. All our backpack bags are designed by world class
+ designers in conjunction with material science experts. They are both stylish and solid. One bag can meet all of your hockey gear
+ carrying needs. However, our bags are not limited to carrying gear to hockey games. You can use them for any occasion with 
   ease and comfort.</p>
  <form id="backpackFormMain" action="/TripleJHockey/Product" method="get">
 <input type="hidden" name="Category" value="backpackBag"/>
@@ -90,8 +90,8 @@
 <div class="caption">
 <h3>Contact Us</h3>
 <p>Your feedback is critical to us. At Triple J Hockey, one of our missions is to ensure customer satisfaction.
- If you have any messages to share with us about how to improve your shopping experiences, we will be very glad to hear your 
- voices. In addition, if you encountered any problem during your shopping, we will help you solve it ASAP.</p>
+ If you have any messages to share with us about how to improve your shopping experiences, we will be very glad to hear from
+ you. If you encounter any problem during your shopping, we will help you solve it as soon as possible.</p>
 <p><a href="/TripleJHockey/ContactUs/LeaveYourMessage/" class="btn btn-primary">Contact Us</a></p>
 </div>
 </div>
