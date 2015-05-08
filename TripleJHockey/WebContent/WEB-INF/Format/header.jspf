@@ -24,7 +24,9 @@
 <h3><a href="/TripleJHockey/User/login/" class="user">Login</a></h3>
 </div>
 <div class="col-xs-1 vcenter ">
+<a href="/TripleJHockey/Checkout/" class="user">
 <img src="/TripleJHockey/image/cart.png" width="50" height="50" />
+</a>
 </div>
 </div>
 </div>
@@ -69,13 +71,13 @@
 <li>
 <form id="iceSkateForm" action="/TripleJHockey/Product" method="get">
 <input type="hidden" name="Category" value="iceSkate"/> 
-<a href="#" onclick="document.getElementById('iceSkateForm').submit();">Ice</a>
+<a href="#" onclick="document.getElementById('iceSkateForm').submit();">Ice Skates</a>
 </form>
 </li>
 <li>
 <form id="inLineSkateForm" action="/TripleJHockey/Product" method="get">
 <input type="hidden" name="Category" value="inlineSkate"/> 
-<a href="#" onclick="document.getElementById('inLineSkateForm').submit();">Inline</a>
+<a href="#" onclick="document.getElementById('inLineSkateForm').submit();">Inline Skates</a>
 </form>
 </li>
 </ul>
